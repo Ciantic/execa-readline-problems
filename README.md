@@ -1,4 +1,12 @@
-First start in new Powershell window the test.js
+Pre-requisites:
+
+```
+npm install
+```
+
+Then open two PowerShell windows. 
+
+First start in new Powershell window the test.js:
 
 ```powershell
 node .\test.js
