@@ -9,4 +9,4 @@ process.stdin.on('keypress', (str, key) => {
   }
   console.log("key", key);
 });
-const myProcess = execa('tsc --noEmit --watch', {shell: true, cleanup: true});
+const myProcess = execa('npx tsc --noEmit --watch', {cleanup: true});
